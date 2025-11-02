@@ -1,0 +1,52 @@
+.productItem {
+  width: 168px;
+  box-sizing: border-box;
+  flex-shrink: 0;
+  margin-right: 2px;
+  margin-top: 20px;
+}
+
+.productImage {
+  width: 100%;
+  height: 224px; /* fixed image height */
+  object-fit: contain;
+  flex-shrink: 0;
+}
+
+.productTitle {
+  width: 130px;
+  font-family: Simplon Norm;
+  font-weight: 700;
+  font-style: Bold;
+  font-size: 10px;
+  line-height: 100%;
+  letter-spacing: 0px;
+  text-transform: uppercase;
+  white-space: nowrap; /* Keep text on one line */
+  overflow: hidden; /* Hide overflow */
+  text-overflow: ellipsis;
+}
+
+.titleFavouriteContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.favouriteIcon {
+  height: 16px;
+  width: 16px;
+}
+
+.productDescription {
+  font-family: Simplon Norm;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 100%;
+  letter-spacing: 0px;
+  color: #888792;
+}
+
+.productDescSpan {
+  text-decoration: underline;
+}
