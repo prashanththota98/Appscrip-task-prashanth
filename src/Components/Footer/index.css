@@ -1,0 +1,284 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+.footer {
+  background-color: #000000;
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-top: 24px;
+  display: flex;
+  flex-direction: column;
+}
+
+.headingFooter {
+  font-family: Simplon Norm;
+  font-weight: 700;
+  font-style: Bold;
+  font-size: 16px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: #ffffff;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.descriptionFooter {
+  color: #ffffff;
+  margin-top: 10px;
+}
+
+.paraforlargedesc {
+  margin-bottom: 10px;
+}
+
+.subscription {
+  margin-bottom: 10px;
+}
+
+.emailandsubscribe {
+  display: flex;
+  align-items: center;
+}
+
+.inputEmail {
+  background-color: #ffffff;
+  height: 48px;
+  width: 226px;
+  border: none;
+  margin-top: 10px;
+}
+.subscribeButton {
+  height: 48px;
+  width: 109px;
+  font-family: Simplon Norm;
+  font-weight: 700;
+  font-style: Bold;
+  font-size: 16px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  margin-left: 2px;
+  background-color: transparent;
+  color: #ffffff;
+  margin-left: 10px;
+  border: 0.5px solid;
+}
+.contactDetailsContainer {
+  color: #ffffff;
+  display: flex;
+  margin-top: 10px;
+}
+.contactNumber {
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+.email {
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+
+.currencyContainer {
+  color: #ffffff;
+  display: flex;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  align-items: center;
+}
+.flag {
+  margin-right: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.line {
+  width: 100%;
+  height: 2px;
+  background-color: #ffffff;
+}
+
+.mettaMuseSection {
+  padding: 20px 0px 20px 0px;
+}
+
+.mettaMuseHead {
+  color: #ffffff;
+}
+
+.arrow {
+  transition: transform 0.7s ease;
+  color: #ffffff;
+}
+
+.arrow.rotated {
+  transform: rotate(180deg);
+}
+
+.dropdownItem {
+  color: #ffffff;
+  font-size: 11px;
+  margin-top: 2px;
+}
+
+.dropdownContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.dropdownList {
+  display: none;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.show-on-small.dropdownList {
+  display: block;
+}
+
+.followupContainer {
+  display: none;
+  margin-top: 20px;
+  gap: 10px;
+}
+
+.show-on-small.followupContainer {
+  display: flex;
+}
+
+.followup-icons {
+  color: #ffffff;
+  height: 20px;
+  width: 20px;
+}
+
+.aboutPayment {
+  color: #ffffff;
+}
+
+.paymentListContainer {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.listItemPayment {
+  height: 30px;
+  width: 51px;
+  background-color: #fff2f5;
+  border: 0.91px solid;
+  border-radius: 10px;
+  margin: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.backgroundFourth {
+  background-color: #006fcf;
+}
+
+.backgroundSixth {
+  background-color: #5a31f4;
+}
+
+.copyRight {
+  font-family: Simplon Norm;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 100%;
+  letter-spacing: 0px;
+  text-align: center;
+  color: #ffffff;
+  padding: 20px;
+}
+
+.instructionsOnPayment {
+  display: none;
+}
+
+.paraforlargedesc {
+  display: none;
+}
+
+@media screen and (max-width: 767px) {
+  .contactDetailsContainer {
+    align-items: center;
+  }
+
+  .dropdownItem {
+    margin-top: 10px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .subscription {
+    width: 55%;
+  }
+  .contactDetailsContainer {
+    display: flex;
+    flex-direction: column;
+  }
+  .line {
+    display: none;
+  }
+  .linelg {
+    width: 100%;
+    height: 2px;
+    background-color: #ffffff;
+  }
+  .lgTopMain {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 20px;
+  }
+  .contactNumber {
+    margin: 0;
+    padding: 0;
+  }
+
+  .email {
+    margin: 0;
+    padding: 0;
+  }
+  .arrow {
+    display: none;
+  }
+  .dropdownList {
+    display: block !important;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  .followupContainer {
+    display: flex !important;
+  }
+  .star {
+    display: none;
+  }
+  .instructionsOnPayment {
+    display: block;
+    font-family: Simplon Norm;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 100%;
+    color: #ffffff;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  .descriptionFooter {
+    display: none;
+  }
+  .paraforlargedesc {
+    display: block;
+    color: #ffffff;
+  }
+
+  .dropdownItem {
+    margin-top: 15px;
+  }
+}
