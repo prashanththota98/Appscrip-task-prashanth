@@ -67,6 +67,7 @@ body {
   color: #ffffff;
   display: flex;
   margin-top: 10px;
+  margin-bottom: 10px;
 }
 .contactNumber {
   margin-right: 10px;
@@ -76,6 +77,10 @@ body {
 .email {
   margin-left: 10px;
   margin-bottom: 10px;
+}
+
+.headingFooter {
+  margin-top: 24px;
 }
 
 .currencyContainer {
@@ -280,5 +285,11 @@ body {
 
   .dropdownItem {
     margin-top: 15px;
+  }
+  .currency {
+    margin-top: 20px;
+  }
+  .headingFooter {
+    margin-top: 10px;
   }
 }

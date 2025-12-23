@@ -16,6 +16,10 @@ function Products(props) {
     indexofLastProduct
   );
 
+  const gridClass = showFilters
+    ? "productContainer-small"
+    : "productContainer-large";
+
   return (
     <>
       <section
@@ -31,7 +35,7 @@ function Products(props) {
             <p>Loading...</p>
           </div>
         ) : (
-          <ul className="productsContainer">
+          <ul className={`productsContainer ${gridClass}`}>
             {currentProducts.map((eachProduct) => (
               <ProductCard key={eachProduct.id} product={eachProduct} />
             ))}
