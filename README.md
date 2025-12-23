@@ -1,7 +1,6 @@
-# 🌐 Portfolio Website
+# 🌐 Logo Website
 
-A clean and responsive personal portfolio built with **React**, **Vite**, and **Tailwind CSS**.  
-This website showcases my skills, projects, and contact information in a modern layout.
+A clean and responsive website built with React Js.
 
 ---
 
@@ -17,7 +16,6 @@ This website showcases my skills, projects, and contact information in a modern 
 - Fully responsive design
 - Smooth section navigation
 - Reusable, modular components
-- Projects and skills showcase
 
 ---
 
